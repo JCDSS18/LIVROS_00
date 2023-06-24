@@ -4,7 +4,7 @@
 }
 
 #BODY_ID_01 {
-    color: aqua;
+    color: grey;
     background-color: black;
 }
 
@@ -25,7 +25,11 @@
 
 #DIV_ID_01_02 {
     display: inline-flex;
-    margin-left: 60px;
+}
+
+#DIV_ID_01_03 {
+    margin-top: 35px;
+    margin-left: 30px;
 }
 
 #DIV_ID_01_02_01 {
@@ -42,6 +46,22 @@
 
 #DIV_ID_01_02_04 {
     padding-left: 20px;
+}
+
+#INPUT_ID_01_03_01 {
+    padding: 3px;
+    border-radius: 30px;
+}
+
+#LABEL_ID_01_03_01 {
+    font-size: medium;
+    color: grey;
+    margin-left: 5px;
+}
+
+#LABEL_ID_01_03_01:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .DIV_CLASS_00_00_00 {
@@ -62,5 +82,43 @@
 }
 
 .A_CLASS_00_00_00:hover {
+    text-decoration: underline;
+}
+
+#DIV_ID_02_01 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+#DIV_ID_02_02 {
+    display: flex;
+}
+
+.DIV_CLASS_02_01_01_00 {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.IMG_CLASS_02_01_01_01_00 {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.IMG_CLASS_02_01_01_01_00:hover {
+    cursor: pointer;
+}
+
+.P_CLASS_02_01_01_01_00 {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.P_CLASS_02_01_01_01_00:hover {
+    cursor: pointer;
     text-decoration: underline;
 }

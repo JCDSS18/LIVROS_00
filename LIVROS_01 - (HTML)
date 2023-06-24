@@ -35,9 +35,42 @@
                 </a>
             </div>
         </div>
+        <div id="DIV_ID_01_03">
+            <input type="text" name="Pesquisa" id="INPUT_ID_01_03_01">
+            <a for="" id="LABEL_ID_01_03_01">
+                PESQUISA
+            </a>
+        </div>
     </div>
     <div id="DIV_ID_02">
-        
+        <div id="DIV_ID_02_01">
+            <div id="DIV_ID_02_01_01" class="DIV_CLASS_02_01_01_00">
+                <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt=""
+                    id="IMG_ID_02_01_01_01" class="IMG_CLASS_02_01_01_01_00">
+                <p id="P_ID_02_01_01_01" class="P_CLASS_02_01_01_01_00">
+                    HISTÓRICO
+                </p>
+            </div>
+            <div id="DIV_ID_02_01_02" class="DIV_CLASS_02_01_01_00">
+                <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt=""
+                    id="IMG_ID_02_01_01_02" class="IMG_CLASS_02_01_01_01_00">
+                <p id="P_ID_02_01_01_02" class="P_CLASS_02_01_01_01_00">
+                    HISTÓRICO
+                </p>
+            </div>
+            <div id="DIV_ID_02_01_02" class="DIV_CLASS_02_01_01_00">
+                <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt=""
+                    id="IMG_ID_02_01_01_03" class="IMG_CLASS_02_01_01_01_00">
+                <p id="P_ID_02_01_01_03" class="P_CLASS_02_01_01_01_00">
+                    HISTÓRICO
+                </p>
+            </div>
+            <dir id="DIV_ID_02_02">
+                <div id="DIV_ID_02_02_01">
+                    <img src="" alt="" id="IMG_ID_02_02_01_01" class="IMG_ID_02_02_01_01_00">
+                </div>
+            </dir>
+        </div>
     </div>
     <script src="js.js"></script>
 </body>

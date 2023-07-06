@@ -1,6 +1,14 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 header {
     display: flex;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid aliceblue;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header div {
@@ -12,22 +20,22 @@ header div a img {
     width: 100px;
     border: 2px solid black;
     border-radius: 30px;
-    transition: width 0.3s, margin-left 0.3s;
-    transition-timing-function: ease;
+    transition: width 0.2s, margin-left 0.2s;
+    transition-timing-function: ease;   
 }
 
 header div a img:hover {
-    width: 115px;
+    width: 110px;
     margin-left: 5px;
 }
 
 nav {
     margin: 20px;
-    margin-left: 200px;
+    margin-left: 170px;
 }
 
 nav div a {
-    color: black;
+    color: aliceblue;
     margin: 30px;
     font-size: 18px;
     text-decoration: none;
@@ -36,30 +44,73 @@ nav div a {
 }
 
 nav div a:hover {
-    font-size: 22px;
+    font-size: 25px;
     text-decoration: underline;
 }
 
 main {
     margin: 10px;
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 30px;
     margin-bottom: 40px;
     display: block;
 }
 
+@keyframes animação1 {
+    from {
+        padding-inline-start: 30px;
+    }
+    to {
+        padding-inline-start: 40px;
+    }
+}
+
 main h2 {
     width: 100px;
+    position: static;
     padding: 5px;
-    padding-left: 25px;
-    margin-left: -28px;
+    padding-left: 30px;
     border: 3px solid black;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
+    animation-name: animação1;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
 main hr {
+    width: 1145px;
+    position: static;
     margin-top: -20px;
+    margin-left: 30px;
+}
+
+@keyframes animação2 {
+    from {
+        padding-inline-end: 40px;
+    }
+
+    to {
+        padding-inline-end: 50px;
+    }
+}
+
+main h3 {
+    width: 100px;
+    position: static;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px;
+    margin-right: 190px;
+    border: 3px solid black;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    animation-name: animação2;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
 section {
@@ -80,7 +131,8 @@ section div a {
 }
 
 section div a img {
-    width: 130px;
+    width: 120px;
+    border: 2px solid black;
     border-radius: 30px;
     transition: width 0.3s, margin-left 0.3s;
     transition-timing-function: ease;
@@ -124,7 +176,7 @@ footer article {
 }
 
 footer article h3 {
-    margin-left: 180px;
+    margin-left: 150px;
 }
 
 footer article nav a {
@@ -135,4 +187,53 @@ footer article nav a {
 
 footer article nav a:hover {
     text-decoration: underline;
+}
+
+aside {
+    margin-left: 5px;  
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+aside figure {
+    height: 350px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+aside figure img {
+    width: 250px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 30px;    
+    transition: width 0.2s;
+    transition-timing-function: ease;
+}
+
+aside figure img:hover {
+    width: 270px;
+}
+
+.float {
+    display: inline-block;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.margin_left {
+    width: 310px;
+    position: static;
+    margin-top: -19px;
+}
+
+main picture img {
+    width: 1203px;
+    height: 200px;
+    margin-top: -40px;
+    margin-left: -30px;
 }

@@ -4,8 +4,8 @@ body {
 }
 
 header {
+    height: 100px;
     display: flex;
-    border-bottom: 2px solid aliceblue;
     background-image: url(https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,30 +17,31 @@ header div {
 }
 
 header div a img {
-    width: 100px;
-    border: 2px solid black;
-    border-radius: 30px;
-    transition: width 0.2s, margin-left 0.2s;
-    transition-timing-function: ease;   
+    width: 110px;
+    margin-top: 5px;
+    border-radius: 50px;
+    transition: width 0.3s, margin-left 0.3s;
+    transition-timing-function: ease;
 }
 
 header div a img:hover {
-    width: 110px;
-    margin-left: 5px;
+    width: 125px;
+    margin-left: 15px;
 }
 
 nav {
     margin: 20px;
-    margin-left: 170px;
+    margin-top: 30px;
+    margin-left: 160px;
 }
 
 nav div a {
-    color: aliceblue;
+    color: wheat;
     margin: 30px;
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    transition: font-size 0.5s; 
+    transition: font-size 0.5s;
 }
 
 nav div a:hover {
@@ -60,6 +61,7 @@ main {
     from {
         padding-inline-start: 30px;
     }
+
     to {
         padding-inline-start: 40px;
     }
@@ -70,7 +72,8 @@ main h2 {
     position: static;
     padding: 5px;
     padding-left: 30px;
-    border: 3px solid black;
+    color: wheat;
+    background-color: black;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     animation-name: animação1;
@@ -104,7 +107,8 @@ main h3 {
     padding-right: 40px;
     margin-top: 40px;
     margin-right: 190px;
-    border: 3px solid black;
+    color: wheat;
+    background-color: black;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     animation-name: animação2;
@@ -120,8 +124,9 @@ section {
 
 section div {
     padding: 5px;
-    margin: 15px;    
-    border: 2px solid black;
+    margin: 15px;
+    color: wheat;
+    background-color: black;
     border-radius: 20px;
 }
 
@@ -139,12 +144,12 @@ section div a img {
 }
 
 section div a img:hover {
-    width: 140px;   
+    width: 150px;
     margin-left: 3px;
 }
 
 .margin {
-    color: black;
+    color: wheat;
     margin-left: 15px;
     text-decoration: none;
     font-weight: bold;
@@ -154,9 +159,10 @@ section div a img:hover {
 
 .margin:hover {
     margin: 12px;
-    margin-left: 20px;
-    margin-bottom: 12px;
-    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
     cursor: pointer;
     text-decoration: underline;
 }
@@ -190,7 +196,7 @@ footer article nav a:hover {
 }
 
 aside {
-    margin-left: 5px;  
+    margin-left: 5px;
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 40px;
@@ -199,6 +205,8 @@ aside {
 aside figure {
     height: 350px;
     padding: 10px;
+    color: wheat;
+    background-color: black;
     border: 2px solid black;
     border-radius: 30px;
 }
@@ -207,13 +215,13 @@ aside figure img {
     width: 250px;
     margin: 10px;
     border: 2px solid black;
-    border-radius: 30px;    
+    border-radius: 30px;
     transition: width 0.2s;
     transition-timing-function: ease;
 }
 
 aside figure img:hover {
-    width: 270px;
+    width: 280px;
 }
 
 .float {
@@ -236,4 +244,9 @@ main picture img {
     height: 200px;
     margin-top: -40px;
     margin-left: -30px;
+}
+
+.width {
+    width: 700px;
+    margin-top: 10px;
 }

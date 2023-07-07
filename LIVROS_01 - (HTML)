@@ -190,9 +190,9 @@
     </main>
     <footer>
         <article>
-            <h3>
+            <h2>
                 Redes Sociais
-            </h3>
+            </h2>
             <nav>
                 <a href="">
                     Instagram
@@ -202,6 +202,9 @@
                 </a>
                 <a href="">
                     Whatsapp
+                </a>
+                <a href="">
+                    Linkedin
                 </a>
             </nav>
         </article>

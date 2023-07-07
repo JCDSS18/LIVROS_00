@@ -22,7 +22,7 @@ header div a img {
     width: 110px;
     margin-top: 5px;
     border-radius: 50px;
-    transition: width 0.5s, margin-left 0.5s;
+    transition: width 1s, margin-left 1s;
     transition-timing-function: ease;
 }
 
@@ -43,7 +43,7 @@ nav div a {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
-    transition: font-size 0.5s;
+    transition: font-size 1s;
 }
 
 nav div a:hover {
@@ -79,7 +79,7 @@ main h2 {
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
     animation-name: animação1;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
 }
@@ -108,13 +108,13 @@ main h3 {
     padding-left: 40px;
     padding-right: 40px;
     margin-top: 40px;
-    margin-right: 190px;
+    margin-right: 200px;
     color: bisque;
     background-color: black;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     animation-name: animação2;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
 }
@@ -141,7 +141,7 @@ section div a img {
     width: 120px;
     border: 2px solid black;
     border-radius: 30px;
-    transition: width 0.5s, margin-left 0.5s;
+    transition: width 1s, margin-left 1s;
     transition-timing-function: ease;
 }
 
@@ -155,7 +155,7 @@ section div a img:hover {
     margin-left: 15px;
     text-decoration: none;
     font-weight: bold;
-    transition: font-size 0.5s, margin 0.5s, margin-left 0.5s, margin-bottom 0.5s;
+    transition: font-size 1s, margin 1s, margin-left 1s, margin-bottom 1s;
     transition-timing-function: ease;
 }
 
@@ -207,34 +207,43 @@ footer article nav a:hover {
 }
 
 aside {
-    margin-left: 5px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 40px;
-}
-
-aside figure {
-    height: 350px;
-    padding: 10px;
-    color: bisque;
+    height: 400px;
+    padding: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
     background-color: black;
-    border: 2px solid black;
     border-radius: 30px;
 }
 
+@keyframes animação3 {
+    from {
+        background-image: url(https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg);
+    } 
 
-aside figure img {
-    width: 250px;
-    margin: 10px;
-    border: 2px solid black;
+    to {
+        background-image: url(https://cdn.pixabay.com/photo/2016/09/08/22/43/books-1655783_1280.jpg);
+    }
+
+    0% {
+
+    }
+}
+
+aside div {
+    width: 300px;
+    height: 200px;
+    color: bisque;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/31/11/45/library-869061_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
     border-radius: 30px;
-    transition: width 0.5s;
-    transition-timing-function: ease;
+    animation-name: animação3;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 
-aside figure img:hover {
-    width: 280px;
-}
 
 .float {
     display: inline-block;

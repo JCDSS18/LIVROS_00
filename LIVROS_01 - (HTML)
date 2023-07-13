@@ -9,13 +9,13 @@
 </head>
 
 <body>
-    <header>
+    <header> <!--Cabeçalho-->
         <div>
             <a href="">
                 <img src="https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg" alt="">
             </a>
         </div>
-        <nav>
+        <nav> <!--Links-->
             <div>
                 <a href="">
                     INICIO
@@ -29,10 +29,7 @@
             </div>
         </nav>
     </header>
-    <main>
-        <!-- <picture>
-            <img src="https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_1280.jpg" alt="">
-        </picture> -->
+    <main> <!--Página Principal-->
         <h2>
             Lista
         </h2>
@@ -41,14 +38,49 @@
             Publicidade
         </h3>
         <hr class="float clear margin_left">
-        <aside class="float clear">
+        <aside class="float clear"> <!--Publicidades-->
             <div>
                 <a href="">
 
                 </a>
             </div>
         </aside>
-        <section class="margin-top">
+        <section class="margin-top"> <!--Seção-->
+            <div>
+                <a href="">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
+                </a>
+                <a href="" class="margin">
+                    HISTORICO
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
+                </a>
+                <a href="" class="margin">
+                    HISTORICO
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
+                </a>
+                <a href="" class="margin">
+                    HISTORICO
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
+                </a>
+                <a href="" class="margin">
+                    HISTORICO
+                </a>
+            </div>
+        </section> 
+        <hr class="width">
+        <section class=""> <!--Seção-->
             <div>
                 <a href="">
                     <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
@@ -83,7 +115,7 @@
             </div>
         </section>
         <hr class="width">
-        <section class="">
+        <section> <!--Seção-->
             <div>
                 <a href="">
                     <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
@@ -118,7 +150,7 @@
             </div>
         </section>
         <hr class="width">
-        <section>
+        <section> <!--Seção-->
             <div>
                 <a href="">
                     <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
@@ -152,49 +184,23 @@
                 </a>
             </div>
         </section>
-        <hr class="width">
-        <section>
-            <div>
-                <a href="">
-                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
-                </a>
-                <a href="" class="margin">
-                    HISTORICO
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
-                </a>
-                <a href="" class="margin">
-                    HISTORICO
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
-                </a>
-                <a href="" class="margin">
-                    HISTORICO
-                </a>
-            </div>
-            <div>
-                <a href="">
-                    <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_1280.jpg" alt="">
-                </a>
-                <a href="" class="margin">
-                    HISTORICO
-                </a>
-            </div>
-        </section>
+        <article>
+            <nav>
+                <a href=""><<</a>
+                <a href="">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">>></a>
+            </nav>
+        </article>
     </main>
-    <footer>
+    <footer> <!--Rodapé-->
         <h2>
             Redes Sociais
         </h2>
         <hr>
         <article>
-            <nav>
+            <nav> <!--Links-->
                 <a href="">
                     Instagram
                 </a>
